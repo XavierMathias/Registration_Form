@@ -37,6 +37,10 @@
     outline: none;
 }
 
+input{
+
+}
+
 ::placeholder {
     color: white;
 }
