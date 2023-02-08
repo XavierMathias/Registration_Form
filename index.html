@@ -5,26 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <div class="login-section">
-        <h2>Welcome!</h2>
-        <h3>Login in your account</h3>
 
-        <form action="">
-            <input type="text">
-            <input type="password">
-            <div>
-                <input type="checkbox" name="remember me" id="rememberMe">
+    <div class="container"> 
+        <div class="login-section">
+            <div class="heading">
+                <h2>Welcome!</h2>
+                <h3>Login in your account</h3>    
             </div>
-            <input type="submit" value="Submit">
-        </form>
+
+
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="Username" name="uname" required>
+                    <input type="password" placeholder="Password" name="psw" required>
+                </div>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>8
+                <button type="submit">Login</button>
+            </form>
+        </div>
     </div>
 
-    <div class="image">
-        
-    </div>
-    
+
+
 </body>
 </html>

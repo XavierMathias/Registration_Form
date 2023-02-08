@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway; 
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/mountain-sunset.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.login-section{
+    width: 50%;
+    max-width: 450px;
+    height: 100vh;
+    position: fixed;
+    background-color: #2d3250;
+    top: 0;
+    left: 0;
+}
+
+
+
+.input-group input{
+    background-color: #424769;
+    border: none;
+    color: white;
+    height: 4vh;
+    width: 30vh;
+    padding-left: 1.5vh;
+    margin-bottom: .5vh;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+
+.heading{
+    color: white;
+}
+
